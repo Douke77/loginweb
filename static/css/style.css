@@ -1,0 +1,33 @@
+/* 將表單置中顯示，限制寬度 */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 標題居中 */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 錯誤訊息樣式（若不用 Bootstrap 的 alert-danger） */
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* 按鈕間距 */
+.btn {
+    margin-right: 0.5rem;
+}
+
+/* 通用區塊內距 */
+.container {
+    padding-bottom: 2rem;
+}
